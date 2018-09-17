@@ -20,6 +20,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func loginButtonPressed(_ sender: Any) {
+        
+        performSegue(withIdentifier: "goToLogin", sender: self)
+    }
+    
+    @IBAction func registerButtonPressed(_ sender: Any) {
+        performSegue(withIdentifier: "goToRegister", sender: self)
+    }
 }
 
