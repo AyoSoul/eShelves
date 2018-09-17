@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38135086214FBA7F001A2E34 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38135085214FBA7F001A2E34 /* LoginViewController.swift */; };
 		3854457C214D33DC0083DE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3854457B214D33DC0083DE9D /* AppDelegate.swift */; };
 		3854457E214D33DC0083DE9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3854457D214D33DC0083DE9D /* ViewController.swift */; };
 		38544581214D33DC0083DE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3854457F214D33DC0083DE9D /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38135085214FBA7F001A2E34 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		38544578214D33DC0083DE9D /* eShelves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eShelves.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3854457B214D33DC0083DE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3854457D214D33DC0083DE9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				3854457B214D33DC0083DE9D /* AppDelegate.swift */,
 				3854457D214D33DC0083DE9D /* ViewController.swift */,
 				3854457F214D33DC0083DE9D /* Main.storyboard */,
+				38135085214FBA7F001A2E34 /* LoginViewController.swift */,
 				38544582214D33EE0083DE9D /* Assets.xcassets */,
 				38544584214D33EE0083DE9D /* LaunchScreen.storyboard */,
 				38544587214D33EE0083DE9D /* Info.plist */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38135086214FBA7F001A2E34 /* LoginViewController.swift in Sources */,
 				3854457E214D33DC0083DE9D /* ViewController.swift in Sources */,
 				3854457C214D33DC0083DE9D /* AppDelegate.swift in Sources */,
 			);
