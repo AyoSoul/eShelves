@@ -1,18 +1,17 @@
 //
-//  LoginViewController.swift
+//  RegisterViewController.swift
 //  eShelves
 //
-//  Created by Ayo Soul on Mac on 17/09/2018.
+//  Created by Ayo Soul on Mac on 18/09/2018.
 //  Copyright © 2018 Ayo Soul on Mac. All rights reserved.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class RegisterViewController: UIViewController {
     
     // Pre-linked IBOutlets
-    
-    @IBOutlet weak var loginTextField: UITextField!
+    @IBOutlet weak var emailTextField: UITextField!
     
     @IBOutlet weak var passwordTextField: UITextField!
     
@@ -27,7 +26,7 @@ class LoginViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func loginPressed(_ sender: Any) {
+    @IBAction func registerPressed(_ sender: Any) {
     }
     
     /*

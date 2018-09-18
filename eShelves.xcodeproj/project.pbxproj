@@ -15,6 +15,7 @@
 		38544586214D33EE0083DE9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38544584214D33EE0083DE9D /* LaunchScreen.storyboard */; };
 		38544591214D33EF0083DE9D /* eShelvesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38544590214D33EF0083DE9D /* eShelvesTests.swift */; };
 		3854459C214D33EF0083DE9D /* eShelvesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3854459B214D33EF0083DE9D /* eShelvesUITests.swift */; };
+		38C0A4792150B515008C198D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C0A4782150B515008C198D /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		38544597214D33EF0083DE9D /* eShelvesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eShelvesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3854459B214D33EF0083DE9D /* eShelvesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eShelvesUITests.swift; sourceTree = "<group>"; };
 		3854459D214D33EF0083DE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38C0A4782150B515008C198D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				38544582214D33EE0083DE9D /* Assets.xcassets */,
 				38544584214D33EE0083DE9D /* LaunchScreen.storyboard */,
 				38544587214D33EE0083DE9D /* Info.plist */,
+				38C0A4782150B515008C198D /* RegisterViewController.swift */,
 			);
 			path = eShelves;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				38135086214FBA7F001A2E34 /* LoginViewController.swift in Sources */,
 				3854457E214D33DC0083DE9D /* ViewController.swift in Sources */,
 				3854457C214D33DC0083DE9D /* AppDelegate.swift in Sources */,
+				38C0A4792150B515008C198D /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
