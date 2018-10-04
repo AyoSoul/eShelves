@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="n0U-Th-ukH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="n0U-Th-ukH">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -77,6 +77,7 @@
                                 <state key="normal" title="Register"/>
                                 <connections>
                                     <action selector="registerPressed:" destination="1Kc-FQ-KdF" eventType="touchUpInside" id="S7L-ia-Tsa"/>
+                                    <segue destination="hPW-Xg-emw" kind="show" identifier="goToShelvesTableView" id="DTU-Uw-kSV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -121,6 +122,7 @@
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="loginPressed:" destination="YWv-Pw-rd2" eventType="touchUpInside" id="Rv7-XA-uHD"/>
+                                    <segue destination="hPW-Xg-emw" kind="show" identifier="goToShelvesTableView" id="Sdr-ld-Cwi"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Login" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="exe-uU-fN5">
@@ -169,4 +171,7 @@
             <point key="canvasLocation" x="149.59999999999999" y="55.322338830584712"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="DTU-Uw-kSV"/>
+    </inferredMetricsTieBreakers>
 </document>
