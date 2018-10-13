@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		13A8F31958E863A700A0404F /* Pods_eShelvesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90822A9509DD59E975947592 /* Pods_eShelvesUITests.framework */; };
+		380686982171F30A0086D383 /* ShelvesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380686972171F30A0086D383 /* ShelvesTableViewController.swift */; };
 		38135086214FBA7F001A2E34 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38135085214FBA7F001A2E34 /* LoginViewController.swift */; };
 		3854457C214D33DC0083DE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3854457B214D33DC0083DE9D /* AppDelegate.swift */; };
 		3854457E214D33DC0083DE9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3854457D214D33DC0083DE9D /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		1359C0C6769F0C9CCD7B3E06 /* Pods-eShelvesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eShelvesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-eShelvesUITests/Pods-eShelvesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		380686972171F30A0086D383 /* ShelvesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelvesTableViewController.swift; sourceTree = "<group>"; };
 		38135085214FBA7F001A2E34 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		38544578214D33DC0083DE9D /* eShelves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eShelves.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3854457B214D33DC0083DE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				38A8CFFD2157FB7C00BF9551 /* Controller */,
 				3854457A214D33DC0083DE9D /* eShelves */,
 				3854458F214D33EF0083DE9D /* eShelvesTests */,
+				3854457D214D33DC0083DE9D /* ViewController.swift */,
 				3854459A214D33EF0083DE9D /* eShelvesUITests */,
 				38544579214D33DC0083DE9D /* Products */,
 				009EB5251D4E08741E5C7ECB /* Pods */,
@@ -183,9 +186,9 @@
 			isa = PBXGroup;
 			children = (
 				3854457B214D33DC0083DE9D /* AppDelegate.swift */,
-				3854457D214D33DC0083DE9D /* ViewController.swift */,
-				38135085214FBA7F001A2E34 /* LoginViewController.swift */,
 				38C0A4782150B515008C198D /* RegisterViewController.swift */,
+				38135085214FBA7F001A2E34 /* LoginViewController.swift */,
+				380686972171F30A0086D383 /* ShelvesTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 				38135086214FBA7F001A2E34 /* LoginViewController.swift in Sources */,
 				3854457E214D33DC0083DE9D /* ViewController.swift in Sources */,
 				3854457C214D33DC0083DE9D /* AppDelegate.swift in Sources */,
+				380686982171F30A0086D383 /* ShelvesTableViewController.swift in Sources */,
 				38C0A4792150B515008C198D /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
