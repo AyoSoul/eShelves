@@ -10,11 +10,24 @@ import UIKit
 import Firebase
 
 class ShelvesTableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
-
+    
+    
+    @IBOutlet weak var shelvesTableViewController: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        // Set the shelvesTableViewController to be the delegate and the datasource
+        shelvesTableViewController.delegate = self
+        shelvesTableViewController.dataSource = self
+        
+    }
+    
+    // Declare cell for row at index path method
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
     }
     
 
@@ -28,4 +41,5 @@ class ShelvesTableViewController: UIViewController, UITableViewDelegate, UITable
     }
     */
 
+    
 }
