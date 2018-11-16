@@ -7,10 +7,24 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
+    
+    //  iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
 
     override func viewDidLoad() {
+        /*
+        if(Auth.auth().isSignIn(withEmailLink: "e@f.com")){
+            // Go to goToShelvesTableView
+            print("-----Logged in -------")
+//            self.performSegue(withIdentifier: "goToShelvesTableView", sender: self)
+        }else{
+            print("-----Not logged in -------")
+            self.performSegue(withIdentifier: "goToShelvesTableView", sender: self)
+        }
+        */
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }

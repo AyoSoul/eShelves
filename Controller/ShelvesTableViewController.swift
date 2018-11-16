@@ -32,9 +32,6 @@ class ShelvesTableViewController: UIViewController, UITableViewDelegate, UITable
         
     }
     
-    
-    
-    
     // Declare cell for row at index path method
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
@@ -68,5 +65,15 @@ class ShelvesTableViewController: UIViewController, UITableViewDelegate, UITable
     }
     */
 
+    @IBAction func logOutPressed(_ sender: Any) {
+        // Log out the user and send them back to the ViewController
+        
+        do{
+            try Auth.auth().signOut()
+            navigationController?.popToRootViewController(animated: true)
+        }catch{
+            print("error signing out")
+        }
+    }
     
 }

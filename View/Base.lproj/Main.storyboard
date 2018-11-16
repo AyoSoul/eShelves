@@ -120,7 +120,13 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="PbK-MX-ng9"/>
                     </view>
-                    <navigationItem key="navigationItem" id="BnO-C5-HV0"/>
+                    <navigationItem key="navigationItem" id="BnO-C5-HV0">
+                        <barButtonItem key="rightBarButtonItem" title="Log out" id="Q16-1D-acd">
+                            <connections>
+                                <action selector="logOutPressed:" destination="hPW-Xg-emw" id="3uN-Ui-cAU"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="shelvesTableViewController" destination="pdo-8b-kjO" id="zhP-TE-eIH"/>
                     </connections>

@@ -23,7 +23,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Testing the database, by attaching a reference to the Firebase
         let MyDatabase = Database.database().reference()
-        MyDatabase.setValue("Writing second test message to databaase")
+        MyDatabase.setValue("Testing Teating and Testing again")
+        print("Testing Teating and Testing again")
+        
+       
+//        if(Auth.auth().isSignIn(withEmailLink: "e@f.com")){
+//            // Go to goToShelvesTableView
+//            self.performSegue(withIdentifier: "goToShelvesTableView", sender: self)
+//        }
         
         return true
     }
