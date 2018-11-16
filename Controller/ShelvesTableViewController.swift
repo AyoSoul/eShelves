@@ -23,12 +23,39 @@ class ShelvesTableViewController: UIViewController, UITableViewDelegate, UITable
         shelvesTableViewController.delegate = self
         shelvesTableViewController.dataSource = self
         
+        //  Set yourself as the delegate of the text field here:
+        //  Set the tapGesture here
+        
+        //  Register your .xib file here
+        
+            shelvesTableViewController.register(UINib(nibName: "CustomTableViewCell1", bundle: nil), forCellReuseIdentifier: "customTableViewCell1")
+        
     }
+    
+    
+    
     
     // Declare cell for row at index path method
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "customTableViewCell1", for: indexPath) as! CustomTableViewCell1
+        
+        let bkNameArray = ["Wars", "Fantasy Novel", "Blue Shelves", "History of the World", " Famous Artist and Works", "unknown Genre"]
+        let bkNoOfBooksArray = ["3440", "1234", "122", "12000", "777", "678"]
+        let bkLocationArray = ["Top Floor", "Top Floor Beh", "Basement", "Living Room", "Downstairs", "Kitchen"]
+        
+        cell.bookcaseName.text = bkNameArray[indexPath.row]
+        cell.bookcaseNoOfBooks.text = bkNoOfBooksArray[indexPath.row]
+        cell.bookcaseLocation.text = bkLocationArray[indexPath.row]
+        
+        return cell
     }
+    
+    //  Declare number of rows in selection
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 6
+    }
+    
     
 
     /*

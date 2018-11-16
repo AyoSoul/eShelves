@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		13A8F31958E863A700A0404F /* Pods_eShelvesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90822A9509DD59E975947592 /* Pods_eShelvesUITests.framework */; };
 		380686982171F30A0086D383 /* ShelvesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380686972171F30A0086D383 /* ShelvesTableViewController.swift */; };
+		381148A3219E3414006C0BFB /* CustomTableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381148A1219E3414006C0BFB /* CustomTableViewCell1.swift */; };
+		381148A4219E3414006C0BFB /* CustomTableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 381148A2219E3414006C0BFB /* CustomTableViewCell1.xib */; };
 		38135086214FBA7F001A2E34 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38135085214FBA7F001A2E34 /* LoginViewController.swift */; };
 		3854457C214D33DC0083DE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3854457B214D33DC0083DE9D /* AppDelegate.swift */; };
 		3854457E214D33DC0083DE9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3854457D214D33DC0083DE9D /* ViewController.swift */; };
@@ -45,6 +47,8 @@
 /* Begin PBXFileReference section */
 		1359C0C6769F0C9CCD7B3E06 /* Pods-eShelvesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eShelvesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-eShelvesUITests/Pods-eShelvesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		380686972171F30A0086D383 /* ShelvesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelvesTableViewController.swift; sourceTree = "<group>"; };
+		381148A1219E3414006C0BFB /* CustomTableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell1.swift; sourceTree = "<group>"; };
+		381148A2219E3414006C0BFB /* CustomTableViewCell1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell1.xib; sourceTree = "<group>"; };
 		38135085214FBA7F001A2E34 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		38544578214D33DC0083DE9D /* eShelves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eShelves.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3854457B214D33DC0083DE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +116,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		381148A5219E3487006C0BFB /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				381148A1219E3414006C0BFB /* CustomTableViewCell1.swift */,
+				381148A2219E3414006C0BFB /* CustomTableViewCell1.xib */,
+			);
+			name = "Custom Cell";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		3854456F214D33DB0083DE9D = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +185,7 @@
 			children = (
 				38544584214D33EE0083DE9D /* LaunchScreen.storyboard */,
 				3854457F214D33DC0083DE9D /* Main.storyboard */,
+				381148A5219E3487006C0BFB /* Custom Cell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -315,6 +330,7 @@
 				38A8CFFF215961E100BF9551 /* GoogleService-Info.plist in Resources */,
 				38544583214D33EE0083DE9D /* Assets.xcassets in Resources */,
 				38544581214D33DC0083DE9D /* Main.storyboard in Resources */,
+				381148A4219E3414006C0BFB /* CustomTableViewCell1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +442,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				381148A3219E3414006C0BFB /* CustomTableViewCell1.swift in Sources */,
 				38135086214FBA7F001A2E34 /* LoginViewController.swift in Sources */,
 				3854457E214D33DC0083DE9D /* ViewController.swift in Sources */,
 				3854457C214D33DC0083DE9D /* AppDelegate.swift in Sources */,
