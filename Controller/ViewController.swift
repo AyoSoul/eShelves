@@ -33,14 +33,34 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    @IBAction func loginButtonPressed(_ sender: Any) {
+//
+//    @IBAction func loginButtonPressed(_ sender: Any) {
+//        print("goToLogin")
+//        performSegue(withIdentifier: "goToLogin", sender: self)
+//    }
+//
+//    @IBAction func registerButtonPressed(_ sender: Any) {
+//        print("goToRegister")
+//        performSegue(withIdentifier: "goToRegister", sender: self)
+//    }
+//
+//    
+    @IBAction func customSegmentControlPressed(_ sender: CustomSegmentedControl) {
         
-        performSegue(withIdentifier: "goToLogin", sender: self)
+        print("custom Segemented Control")
+        switch sender.selectedSegmentIndex {
+        case 0 :
+            print("Register")
+            performSegue(withIdentifier: "goToRegister", sender: self)
+            break
+        case 1:
+            print("Login")
+            performSegue(withIdentifier: "goToLogin", sender: self)
+            break
+        default:
+            break
+        }
     }
     
-    @IBAction func registerButtonPressed(_ sender: Any) {
-        performSegue(withIdentifier: "goToRegister", sender: self)
-    }
 }
 

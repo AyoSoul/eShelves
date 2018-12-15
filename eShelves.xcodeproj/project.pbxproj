@@ -12,6 +12,7 @@
 		381148A3219E3414006C0BFB /* CustomTableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381148A1219E3414006C0BFB /* CustomTableViewCell1.swift */; };
 		381148A4219E3414006C0BFB /* CustomTableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 381148A2219E3414006C0BFB /* CustomTableViewCell1.xib */; };
 		38135086214FBA7F001A2E34 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38135085214FBA7F001A2E34 /* LoginViewController.swift */; };
+		381EDDF321C540B600E960AC /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381EDDF221C540B600E960AC /* CustomSegmentedControl.swift */; };
 		3854457C214D33DC0083DE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3854457B214D33DC0083DE9D /* AppDelegate.swift */; };
 		3854457E214D33DC0083DE9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3854457D214D33DC0083DE9D /* ViewController.swift */; };
 		38544581214D33DC0083DE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3854457F214D33DC0083DE9D /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 		381148A1219E3414006C0BFB /* CustomTableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell1.swift; sourceTree = "<group>"; };
 		381148A2219E3414006C0BFB /* CustomTableViewCell1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell1.xib; sourceTree = "<group>"; };
 		38135085214FBA7F001A2E34 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		381EDDF221C540B600E960AC /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
 		38544578214D33DC0083DE9D /* eShelves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eShelves.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3854457B214D33DC0083DE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3854457D214D33DC0083DE9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +128,14 @@
 			path = "New Group";
 			sourceTree = "<group>";
 		};
+		381EDDF121C53CE300E960AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				381EDDF221C540B600E960AC /* CustomSegmentedControl.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		3854456F214D33DB0083DE9D = {
 			isa = PBXGroup;
 			children = (
@@ -133,8 +143,8 @@
 				38A8CFFB2157FAF700BF9551 /* View */,
 				38A8CFFD2157FB7C00BF9551 /* Controller */,
 				3854457A214D33DC0083DE9D /* eShelves */,
+				381EDDF121C53CE300E960AC /* Resources */,
 				3854458F214D33EF0083DE9D /* eShelvesTests */,
-				3854457D214D33DC0083DE9D /* ViewController.swift */,
 				3854459A214D33EF0083DE9D /* eShelvesUITests */,
 				38544579214D33DC0083DE9D /* Products */,
 				009EB5251D4E08741E5C7ECB /* Pods */,
@@ -200,6 +210,7 @@
 		38A8CFFD2157FB7C00BF9551 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3854457D214D33DC0083DE9D /* ViewController.swift */,
 				3854457B214D33DC0083DE9D /* AppDelegate.swift */,
 				38C0A4782150B515008C198D /* RegisterViewController.swift */,
 				38135085214FBA7F001A2E34 /* LoginViewController.swift */,
@@ -442,6 +453,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				381EDDF321C540B600E960AC /* CustomSegmentedControl.swift in Sources */,
 				381148A3219E3414006C0BFB /* CustomTableViewCell1.swift in Sources */,
 				38135086214FBA7F001A2E34 /* LoginViewController.swift in Sources */,
 				3854457E214D33DC0083DE9D /* ViewController.swift in Sources */,
